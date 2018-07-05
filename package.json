@@ -1,0 +1,28 @@
+{
+	"name": "@andrew-r/fit-to-area",
+	"version": "0.1.0",
+	"description": "",
+	"license": "MIT",
+	"repository": "andrew--r/@andrew-r/fit-to-area",
+	"author": {
+		"name": "Andrey Romanov",
+		"email": "me@andrew-r.ru",
+		"url": "http://andreyromanov.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.25.0"
+	}
+}
