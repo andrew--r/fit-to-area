@@ -21,7 +21,9 @@
   ],
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "rollup -c",
+    "build": "npm run build:bundle && npm run build:typings",
+    "build:bundle": "rollup -c",
+    "build:typings": "for f in dist/*.js; do cp typings/flow.js \"$f.flow\"; done",
     "pretest": "npm run build",
     "test": "npm run test:lint && npm run test:unit",
     "test:lint": "eslint src test",
